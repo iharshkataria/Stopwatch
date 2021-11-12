@@ -45,3 +45,43 @@ body{
 #start:active, #stop:active, #reset:active{
     transform: scale(.90);
 }
+@media screen and (max-width:1200px) {
+    
+    
+    .digit{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btn{
+        padding: 3px 12px;
+        font-size: 22px;
+        margin: 0 15px;
+    }
+    .heading1{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:380px) {
+    
+    
+    .digit{
+        font-size: 44px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btn{
+        padding: 2px 8px;
+        font-size: 15px;
+        margin: 0 6px;
+    }
+    .heading1{
+        font-size: 30px;
+    }
+}
